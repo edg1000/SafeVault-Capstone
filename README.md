@@ -1,16 +1,16 @@
-# SafeVault-Capstone
+# SafeVault Capstone Project
 
 ## Overview
-SafeVault is a secure application designed to demonstrate best practices in input validation, SQL injection prevention, authentication, and authorization.
+SafeVault demonstrates secure coding practices: input validation, SQL injection prevention, authentication, and RBAC.
 
 ## Features
-- Input validation to prevent malicious data entry
+- Input validation with regex
 - Parameterized queries to block SQL injection
 - Authentication with hashed passwords
 - Role-Based Access Control (RBAC)
-- Debugging fixes for SQL injection and XSS vulnerabilities
+- Escaping user input to prevent XSS
 
 ## Tests
-Run security and unit tests:
+Run tests:
 ```bash
 npm test
