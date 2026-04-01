@@ -1,4 +1,3 @@
-// src/userController.js
 const db = require('./db');
 const { validateUsername } = require('./inputValidation');
 
